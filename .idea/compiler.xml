@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud_api_commons" />
+        <module name="springcloud_gateway_gateway9527" />
+        <module name="springcloud_consumer_feign_order_8080" />
+        <module name="springcloud_consumer_consul_order8080" />
+        <module name="springcloud_config_center_3344" />
+        <module name="springcloud_consumerzk_order_8080" />
+        <module name="springcloud_consumer_feign_hystrix_order_8080" />
+        <module name="springcloud_consumer_order8080" />
+        <module name="springcloud_provider_hystrix_payment_8001" />
+        <module name="springcloud_provider_payment_8001" />
+        <module name="springcloud_provider_payment_8006" />
+        <module name="springcloud_consumer_hystrix_dashboard_9001" />
+        <module name="springcloud_provider_payment_8004" />
+        <module name="springcloud_provider_payment_8002" />
+        <module name="springcloud_eureka_server_7002" />
+        <module name="springcloud_eureka_server_7001" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="springcloud_api_commons" options="-parameters" />
+      <module name="springcloud_config_center_3344" options="-parameters" />
+      <module name="springcloud_consumer_consul_order8080" options="-parameters" />
+      <module name="springcloud_consumer_feign_hystrix_order_8080" options="-parameters" />
+      <module name="springcloud_consumer_feign_order_8080" options="-parameters" />
+      <module name="springcloud_consumer_hystrix_dashboard_9001" options="-parameters" />
+      <module name="springcloud_consumer_order8080" options="-parameters" />
+      <module name="springcloud_consumerzk_order_8080" options="-parameters" />
+      <module name="springcloud_eureka_server_7001" options="-parameters" />
+      <module name="springcloud_eureka_server_7002" options="-parameters" />
+      <module name="springcloud_gateway_gateway9527" options="-parameters" />
+      <module name="springcloud_provider_hystrix_payment_8001" options="-parameters" />
+      <module name="springcloud_provider_payment_8001" options="-parameters" />
+      <module name="springcloud_provider_payment_8002" options="-parameters" />
+      <module name="springcloud_provider_payment_8004" options="-parameters" />
+      <module name="springcloud_provider_payment_8006" options="-parameters" />
+      <module name="springcloud_service_parent" options="-parameters" />
+    </option>
+  </component>
+</project>

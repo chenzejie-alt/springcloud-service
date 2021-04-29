@@ -1,0 +1,15 @@
+eureka停止更新了怎么办？
+服务注册中心有：eureka，zookeeper，consul，nacos
+springcloud整合zookeeper代替eureka？
+eureka client     eureka server
+服务注册中心：zookeeper
+zookeeper是一个分布式协调工具，可以实现注册中心功能。
+关闭linux服务防火墙防火墙后启动zookeeper服务器
+zookeeper服务器取代eureka服务器，zookeeper作为服务注册中心
+服务提供者
+springcloud_provider_payment_8004
+
+服务消费者
+springcloud_consumerzk_order_8080
+
+

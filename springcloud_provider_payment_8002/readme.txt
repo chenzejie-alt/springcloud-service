@@ -1,0 +1,13 @@
+支付服务提供者8001集群环境构建：
+参考springcloud_provider_payment_8001
+新建springcloud_provider_payment_8002
+改pom：
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+    <version>2.2.6.RELEASE</version>
+</dependency>
+写yaml：
+主启动
+业务类
+修改8001/8002的Controller
