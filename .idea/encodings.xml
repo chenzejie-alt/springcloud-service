@@ -3,6 +3,7 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/springcloud_api_commons/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud_config_center_3344/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloud_config_client_3355/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud_consumer_consul_order8080/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud_consumer_feign_hystrix_order_8080/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloud_consumer_feign_order_8080/src/main/java" charset="UTF-8" />

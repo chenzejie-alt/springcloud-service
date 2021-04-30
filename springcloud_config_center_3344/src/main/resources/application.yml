@@ -13,10 +13,6 @@ spring:
           # 仓库的名字，搜索目录
           search-paths:
             - springcloud-config
-          force-pull: true
-          username: chenzejie-alt
-          password: liudu19990810.
-          timeout: 10000
       # 读取分支
       label: master
 
@@ -24,4 +20,4 @@ spring:
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:7001/eureka
+      defaultZone: http://eureka7001.com:7001/eureka

@@ -16,13 +16,14 @@
         <module name="springcloud_consumer_feign_hystrix_order_8080" />
         <module name="springcloud_consumer_order8080" />
         <module name="springcloud_provider_hystrix_payment_8001" />
-        <module name="springcloud_provider_payment_8001" />
+        <module name="springcloud_eureka_server_7002" />
         <module name="springcloud_provider_payment_8006" />
         <module name="springcloud_consumer_hystrix_dashboard_9001" />
         <module name="springcloud_provider_payment_8004" />
         <module name="springcloud_provider_payment_8002" />
-        <module name="springcloud_eureka_server_7002" />
+        <module name="springcloud_provider_payment_8001" />
         <module name="springcloud_eureka_server_7001" />
+        <module name="springcloud_config_client_3355" />
       </profile>
     </annotationProcessing>
   </component>
@@ -30,6 +31,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="springcloud_api_commons" options="-parameters" />
       <module name="springcloud_config_center_3344" options="-parameters" />
+      <module name="springcloud_config_client_3355" options="-parameters" />
       <module name="springcloud_consumer_consul_order8080" options="-parameters" />
       <module name="springcloud_consumer_feign_hystrix_order_8080" options="-parameters" />
       <module name="springcloud_consumer_feign_order_8080" options="-parameters" />
