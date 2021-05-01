@@ -20,8 +20,9 @@
         <module>springcloud_consumer_feign_hystrix_order_8080</module>
         <module>springcloud_consumer_hystrix_dashboard_9001</module>
         <module>springcloud_gateway_gateway9527</module>
-        <module>springcloud_config_center_3344</module>
+        <module>spirngcloud_config_center_3344</module>
         <module>springcloud_config_client_3355</module>
+        <module>springcloud_config_client_3366</module>
     </modules>
     <parent>
         <artifactId>spring-boot-starter-parent</artifactId>

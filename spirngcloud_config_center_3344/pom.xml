@@ -9,18 +9,17 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>springcloud_eureka_server_7001</artifactId>
+    <artifactId>spirngcloud_config_center_3344</artifactId>
 
     <dependencies>
+        <!--配置中心的服务端-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-            <version>2.2.6.RELEASE</version>
+            <artifactId>spring-cloud-config-server</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.chenzejie</groupId>
-            <artifactId>springcloud_api_commons</artifactId>
-            <version>1.0.0</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -28,25 +27,24 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-            <version>2.2.6.RELEASE</version>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
+            <groupId>com.chenzejie</groupId>
+            <artifactId>springcloud_api_commons</artifactId>
+            <version>1.0.0</version>
         </dependency>
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+            <version>2.2.6.RELEASE</version>
         </dependency>
+        <!--添加消息总线RabbitMQ的支持-->
         <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <scope>test</scope>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bus-amqp</artifactId>
+            <version>2.2.4.RELEASE</version>
         </dependency>
     </dependencies>
+
 </project>

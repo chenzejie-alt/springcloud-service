@@ -1,0 +1,31 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: cloud-config-center
+  cloud:
+    config: # 配置中心服务端的配置
+      server:
+        git: # git的地址
+          uri: https://github.com/chenzejie-alt/springcloud-config.git # 要读取内容的路径/仓库
+          search-paths:
+            - springcloud-config
+          username: chenzejie-alt
+          password: liudu19990810.
+      label: master # 仓库的分支
+  rabbitmq: # 添加rabbitMQ相关配置
+    host: 192.168.1.169
+    port: 5672
+    username: chenzejie
+    password: chenzejie
+# 以上拼起来就是：http://github.com/chenzejie-alt/springcloud-config.git/springcloud-config/master/
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
+# rabbitMQ相关配置，暴露bus刷新配置的端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "bus-refresh" # 暴露bus刷新配置的端点
