@@ -7,25 +7,33 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="springcloud_api_commons" />
+        <module name="springcloud_stream_rabbitmq_consumer_8803" />
+        <module name="springcloud_stream_rabbitmq_consumer_8802" />
         <module name="springcloud_gateway_gateway9527" />
         <module name="springcloud_consumer_feign_order_8080" />
         <module name="springcloud_consumer_consul_order8080" />
         <module name="springcloud_config_center_3344" />
+        <module name="springcloud_alibaba_provider_payment_9002" />
         <module name="springcloud_consumerzk_order_8080" />
+        <module name="springcloud_eureka_server_7001" />
         <module name="springcloud_consumer_feign_hystrix_order_8080" />
         <module name="springcloud_consumer_order8080" />
+        <module name="springcloud_alibaba_provider_payment_9001" />
         <module name="springcloud_provider_hystrix_payment_8001" />
+        <module name="springcloud_sentinel_service_8401" />
+        <module name="springcloud_config_client_3355" />
         <module name="spirngcloud_config_center_3344" />
         <module name="springcloud_eureka_server_7002" />
         <module name="springcloud_provider_payment_8006" />
         <module name="springcloud_consumer_hystrix_dashboard_9001" />
         <module name="springcloud_provider_payment_8004" />
         <module name="springcloud_provider_payment_8002" />
+        <module name="springcloud_stream_rabbitmq_provider_8801" />
+        <module name="springcloud_consumer_nacos_order_8083" />
         <module name="springcloud_provider_payment_8001" />
-        <module name="springcloud_eureka_server_7001" />
+        <module name="springcloud_api_commons" />
         <module name="springcloud_config_client_3366" />
-        <module name="springcloud_config_client_3355" />
+        <module name="springcloud_alibaba_config_nacos_client_3377" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -35,6 +43,9 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spirngcloud_config_center_3344" options="-parameters" />
+      <module name="springcloud_alibaba_config_nacos_client_3377" options="-parameters" />
+      <module name="springcloud_alibaba_provider_payment_9001" options="-parameters" />
+      <module name="springcloud_alibaba_provider_payment_9002" options="-parameters" />
       <module name="springcloud_api_commons" options="-parameters" />
       <module name="springcloud_config_center_3344" options="-parameters" />
       <module name="springcloud_config_client_3355" options="-parameters" />
@@ -43,6 +54,7 @@
       <module name="springcloud_consumer_feign_hystrix_order_8080" options="-parameters" />
       <module name="springcloud_consumer_feign_order_8080" options="-parameters" />
       <module name="springcloud_consumer_hystrix_dashboard_9001" options="-parameters" />
+      <module name="springcloud_consumer_nacos_order_8083" options="-parameters" />
       <module name="springcloud_consumer_order8080" options="-parameters" />
       <module name="springcloud_consumerzk_order_8080" options="-parameters" />
       <module name="springcloud_eureka_server_7001" options="-parameters" />
@@ -53,7 +65,11 @@
       <module name="springcloud_provider_payment_8002" options="-parameters" />
       <module name="springcloud_provider_payment_8004" options="-parameters" />
       <module name="springcloud_provider_payment_8006" options="-parameters" />
+      <module name="springcloud_sentinel_service_8401" options="-parameters" />
       <module name="springcloud_service_parent" options="-parameters" />
+      <module name="springcloud_stream_rabbitmq_consumer_8802" options="-parameters" />
+      <module name="springcloud_stream_rabbitmq_consumer_8803" options="-parameters" />
+      <module name="springcloud_stream_rabbitmq_provider_8801" options="-parameters" />
     </option>
   </component>
 </project>

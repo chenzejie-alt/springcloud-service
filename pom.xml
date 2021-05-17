@@ -23,6 +23,14 @@
         <module>spirngcloud_config_center_3344</module>
         <module>springcloud_config_client_3355</module>
         <module>springcloud_config_client_3366</module>
+        <module>springcloud_stream_rabbitmq_provider_8801</module>
+        <module>springcloud_stream_rabbitmq_consumer_8802</module>
+        <module>springcloud_stream_rabbitmq_consumer_8803</module>
+        <module>springcloud_alibaba_provider_payment_9001</module>
+        <module>springcloud_alibaba_provider_payment_9002</module>
+        <module>springcloud_consumer_nacos_order_8083</module>
+        <module>springcloud_alibaba_config_nacos_client_3377</module>
+        <module>springcloud_sentinel_service_8401</module>
     </modules>
     <parent>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -55,7 +63,7 @@
             <dependency>
                 <groupId>com.alibaba.cloud</groupId>
                 <artifactId>spring-cloud-alibaba-dependencies</artifactId>
-                <version>2.1.0.RELEASE</version>
+                <version>2.2.5.RELEASE</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
