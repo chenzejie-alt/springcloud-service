@@ -28,6 +28,13 @@ public class FlowLimitController {
 //        }
         int age = 1/0;
         System.out.println("testD测试RT---平均响应时间");
-        return "-----testD";
+        return "-----testD异常比例";
+    }
+
+    @GetMapping(value = "/testE")
+    public String testE() {
+        System.out.println("testE 测试异常数");
+        int age = 1/0;
+        return "testE 测试异常数";
     }
 }
